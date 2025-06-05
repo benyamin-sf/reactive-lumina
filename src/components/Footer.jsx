@@ -8,14 +8,16 @@ export default function Footer() {
   return (
     <footer className='footer'>
       <div className='container footer-flex'>
-        <Logo />
+        <div className='footer-logo-wrapper'>
+          <Logo />
 
-        <footer className='footer-disclaimer'>
-          Powered by{' '}
-          <span>
-            <FaUnsplash /> Unsplash
-          </span>
-        </footer>
+          <div className='footer-disclaimer'>
+            Powered by{' '}
+            <span>
+              <FaUnsplash /> Unsplash
+            </span>
+          </div>
+        </div>
 
         <address className='info'>
           <h4>Contact us</h4>

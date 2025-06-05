@@ -22,9 +22,9 @@ export default function Header() {
               />
             ))}
           </ul>
+          <ThemeToggle />
         </nav>
       </div>
-      <ThemeToggle />
     </header>
   );
 }
